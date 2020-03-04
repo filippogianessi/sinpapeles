@@ -14,7 +14,7 @@ body {
 }
 
 .hero__section {
-  height: 90vh;
+  height: 70vh;
   background: black;
   display: flex;
   flex-direction: column;
