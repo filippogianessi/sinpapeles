@@ -3,6 +3,11 @@ body {
   padding: 0;
 }
 
+marquee {
+  margin: 0;
+  padding: 0;
+}
+
 .paragraph {
   font-family: sans-serif;
   font-style: normal;
@@ -14,7 +19,7 @@ body {
 }
 
 .hero__section {
-  height: 70vh;
+  height: 60vh;
   background: black;
   display: flex;
   flex-direction: column;
@@ -26,11 +31,22 @@ body {
 
 .home__section {
   background: black;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
   margin: 0;
-  padding: 160px 24px 64px;
+  padding: 80px 10vw 96px;
   align-items: center;
+  color: #BA91C1;
+  align-items: start;
+}
+.marquee__1 {
+  background-color: #BA91C1;
+  color: black;
+}
+.marquee__2 {
+  background-color: black;
+  color: #BA91C1;
 }
 .navbar {
   display: flex;
@@ -44,14 +60,37 @@ body {
 }
 
 .hero__logo {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 58px;
-  letter-spacing: -0.02em;
   color: #BA91C1;
 }
 .hero__footer {
 
+}
+
+.dates {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  margin-bottom: 48px;
+  border-top: 2px solid #BA91C1;
+}
+
+.date__link {
+  color: #BA91C1;
+}
+
+.links__section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 32px;
+  margin: 0;
+  padding: 32px 10vw 64px;
+  align-items: center;
+  background-color: #BA91C1;
+  color: black;
+}
+
+.links__section a {
+  color: black;
 }
