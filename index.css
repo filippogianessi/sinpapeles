@@ -32,7 +32,6 @@ marquee {
 .home__section {
   background: black;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-gap: 32px;
   margin: 0;
   padding: 80px 10vw 96px;
@@ -93,4 +92,16 @@ marquee {
 
 .links__section a {
   color: black;
+}
+
+@media ( min-width: 320px ) {
+  .home__section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media ( min-width: 782px ) {
+  .home__section {
+    grid-template-columns: 1fr 1fr;
+  }
 }
