@@ -60,3 +60,15 @@ iframe .kfds-c-btn-primary  {
   color: #BA91C1;
   text-decoration: none;
 }
+
+@media ( min-width: 320px ) {
+  .songs {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media ( min-width: 782px ) {
+  .songs {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
