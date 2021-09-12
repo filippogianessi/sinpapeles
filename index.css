@@ -94,6 +94,24 @@ marquee {
   color: black;
 }
 
+.home__music a {
+  color: black;
+  background-color: #BA91C1;
+  padding: 32px 48px;
+  text-decoration: none;
+}
+
+.home__music h3 {
+  color: black;
+  background-color: #BA91C1;
+}
+
+.music__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 @media ( min-width: 320px ) {
   .home__section {
     grid-template-columns: 1fr;

@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.donate__section {
+  display: flex;
+  align-items: center;
+}
+
+iframe .kfds-c-btn-primary  {
+
+    background-color: black;
+}
+
+.hero__section {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 80px 24px 64px;
+  align-items: center;
+  color: #BA91C1;
+}
+
+.music__section {
+  background: #BA91C1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 64px 24px 120px;
+  align-items: center;
+  color: black;
+}
+
+.songs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
+}
+
+.back-2-home__section {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 80px 24px 64px;
+  align-items: center;
+  color: #BA91C1;
+}
+
+.back-2-home__section a {
+  color: #BA91C1;
+}
+
+.hero__section a {
+  color: #BA91C1;
+  text-decoration: none;
+}
