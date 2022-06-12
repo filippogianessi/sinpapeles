@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: #C8F0F9;
 }
 
 marquee {
@@ -112,14 +113,101 @@ marquee {
   justify-content: space-between;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content {
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+.content a {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: black;
+}
+
+.next_shows, .listen, .merch_info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  align-items: baseline;
+}
+
+.next_shows button {
+  margin-top: 16px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.logo {
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  margin-bottom: 16px;
+}
+
+.footer_logo {
+  width: 100%;
+}
+
+button {
+  padding: 12px 24px;
+  border: black solid 1px;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: black;
+  background: none;
+}
+
 @media ( min-width: 320px ) {
   .home__section {
     grid-template-columns: 1fr;
+  }
+  .main {
+    grid-template-columns: 1fr;
+  }
+  .content a {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  button {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .logo {
+    font-size: 40px;
+    line-height: 64px;
   }
 }
 
 @media ( min-width: 782px ) {
   .home__section {
     grid-template-columns: 1fr 1fr;
+  }
+  .main {
+    grid-template-columns: 1fr 1fr;
+  }
+  .content a {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  button {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .logo {
+    font-size: 56px;
+    line-height: 64px;
   }
 }

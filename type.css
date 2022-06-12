@@ -1,5 +1,5 @@
 :root {
-  --heading: "Legacy", sans-serif;
+  --heading: "Helvetica Neue", sans-serif;
 }
 
 @font-face {
@@ -13,22 +13,28 @@
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 700;
 	font-size: 40px;
 	line-height: 40px;
   letter-spacing: -0.75px;
   font-family: "Legacy", sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 h2 {
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -0.5px;
   font-family: "Legacy", sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
 
 }
 h3 {
-  font-weight: 500;
+  font-weight: 700;
   font-family: "Century", sans-serif;
   letter-spacing: -0.25px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 
 }
 h4 {
@@ -80,7 +86,7 @@ a {
 	}
   h2 {
 		font-size: 32px;
-		line-height: 32px;
+		line-height: 44px;
 	}
   h3 {
 		font-size: 24px;
@@ -127,7 +133,7 @@ a {
 		line-height: 56px;
 	}
   h2 {
-		font-size: 40px;
+		font-size: 36px;
 		line-height: 40px;
 	}
   h3 {
