@@ -236,6 +236,9 @@ button:hover {
   .listen {
     flex-direction: column;
   }
+  .content {
+    padding-top: 0;
+  }
 }
 
 @media ( min-width: 782px ) {
@@ -259,5 +262,8 @@ button:hover {
   }
   .listen {
     flex-direction: row;
+  }
+  .content {
+    padding-top: 24px;
   }
 }
