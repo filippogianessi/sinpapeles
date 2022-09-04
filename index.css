@@ -143,12 +143,15 @@ marquee {
 .next_shows, .listen, .merch_info {
   display: flex;
   flex-direction: column;
-  margin-bottom: 24px;
   align-items: baseline;
 }
 
 .next_shows button {
-  margin-top: 16px;
+  margin-top: 8px;
+}
+
+.next_shows {
+  margin-bottom: 24px;
 }
 
 .image img {
@@ -170,7 +173,7 @@ marquee {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 10px 20px;
+  padding: 20px;
 }
 
 .listen h1 {
@@ -195,6 +198,10 @@ button {
 
 button:hover {
   border-radius: 100%;
+}
+
+.info {
+  margin-bottom: 48px;
 }
 
 .info a {
