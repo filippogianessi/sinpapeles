@@ -170,8 +170,7 @@ marquee {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 20px;
-  padding-top: 10px;
+  padding-left: 10px 20px;
 }
 
 .listen h1 {
