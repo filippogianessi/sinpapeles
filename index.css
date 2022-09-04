@@ -122,9 +122,9 @@ marquee {
   padding: 0 24px;
   display: flex;
   flex-direction: column;
+  padding-top: 32px;
 }
 .content a {
-  font-family: 'Helvetica Neue';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -133,7 +133,6 @@ marquee {
 }
 
 .listen a {
-  font-family: 'Helvetica Neue';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -183,13 +182,30 @@ marquee {
 button {
   padding: 12px 24px;
   border: black solid 1px;
-  font-family: 'Helvetica Neue';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: black;
   background: none;
+  cursor: pointer;
+  transition: border-radius 0.9s ease;
+  border-radius: 0;
+}
+
+
+button:hover {
+  border-radius: 100%;
+}
+
+.info a {
+  transition: transform 0.3s ease;
+  transform: translateX(0px);
+}
+
+.info a:hover {
+  transition: transform 0.3s ease;
+  transform: translateX(8px);
 }
 
 @media ( min-width: 320px ) {
