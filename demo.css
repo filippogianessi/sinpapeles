@@ -115,6 +115,7 @@ body {
   }
   .track {
     padding: 10px;
+    grid-template-columns: 1fr 2fr 3fr;
   }
 }
 
@@ -134,5 +135,6 @@ body {
   }
   .track {
     padding: 10px 20px;
+    grid-template-columns: 1fr 2fr 4fr;
   }
 }
