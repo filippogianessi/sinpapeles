@@ -130,6 +130,8 @@ marquee {
   font-size: 32px;
   line-height: 44px;
   color: black;
+  transition: transform 0.3s ease;
+  transform: translateX(0px);
 }
 
 .listen a {
@@ -152,6 +154,8 @@ marquee {
 
 .next_shows {
   margin-bottom: 24px;
+  border-top: solid black 1px;
+  padding-top: 10px;
 }
 
 .image img {
@@ -202,15 +206,16 @@ button:hover {
 
 .info {
   margin-bottom: 48px;
+  border-top: solid black 1px;
+  padding-top: 10px;
 }
 
-.info a {
+.info__link a {
   transition: transform 0.3s ease;
   transform: translateX(0px);
 }
 
-.info a:hover {
-  transition: transform 0.3s ease;
+.info__link a:hover {
   transform: translateX(8px);
 }
 
