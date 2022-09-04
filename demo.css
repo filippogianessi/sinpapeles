@@ -69,6 +69,7 @@ body {
 .channels {
   display: flex;
   flex-direction: column;
+  margin-bottom: 24px;
 }
 
 .channels a {
@@ -79,6 +80,15 @@ body {
 .channels a:hover {
   transition: transform 0.3s ease;
   transform: translateX(8px);
+}
+
+.back a {
+  transition: transform 0.3s ease;
+  transform: translateX(0px);
+}
+
+.back a:hover {
+  transform: translateX(10px);
 }
 
 .player button {
